@@ -1,0 +1,101 @@
+.TopSection {
+    background-color: #fff;
+    height: 900px;
+    width: 1800px;
+    left: 1px;
+    top: 750px;
+    border-radius: 0px;
+}
+
+.TopSection h1 {
+    position: absolute;
+    height: 174px;
+    width: 500px;
+    left: 156px;
+    top: 246px;
+    font-family: 'Readex Pro', sans-serif;;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 58px;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #091E42;
+    vertical-align: Top
+}
+
+.TopSection p {
+    position: absolute;
+    height: 48px;
+    width: 400px;
+    left: 156px;
+    top: 456px;
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #344563;
+    margin-top: 50px;
+}
+
+.TopSection img {
+    position: absolute;
+    height: 475.0873107910156px;
+    width: 719.9625854492188px;
+    left: 797.2310104370117px;
+    top: 101.0986328125px;
+    border-radius: 0px;
+    background: #DADADA;
+}
+
+@media only screen (min-device-width : 460px) and (max-device-width : 800px) {
+.TopSection h1 {
+    position: static;
+    width: 301px;
+    height: 114px;
+    left: 0px;
+    top: 0px;
+
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 120%;
+
+    color: #091E42;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 24px 0px;
+    }
+
+.TopSection p {
+    position: static;
+    width: 245px;
+    height: 61px;
+    left: 0px;
+    top: 138px;
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 20px;
+    color: #344563;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 24px 0px;
+    }
+
+.TopSection img {
+    position: absolute;
+    left: 100%;
+    right: -100%;
+    top: 7.31%;
+    bottom: 85.85%;
+    background: #FFFFFF;
+    }
+}
